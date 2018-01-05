@@ -32,11 +32,14 @@ print('arr2[1:,:2]: ','\n',arr2[1:,:2])
 print('arr2[1,2,1]: ','\n',arr2[1,2,1])
 print('arr2[0]: ','\n',arr2[0])
 print('arr2[0] type: ',type(arr2[0]))
+# 复制 arr2[1] 的值
 old_values = arr2[1].copy()
 print('old_values: ','\n',old_values)
 print('old_values type is: ',type(old_values))
+# 给arr2[1] 中所有元素赋值42
 arr2[1] = 42
 print('new arr2 value: ','\n',arr2)
+# 还原 arr2[1] 的值
 arr2[1] = old_values
 print('newest arr2 value: ','\n',arr2)
 old_values_0 = arr2[0].copy()
