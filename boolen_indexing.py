@@ -32,6 +32,7 @@ print('boolen arrar: ',name_arr == 'Bob')
 输出：
 boolen arrar:  [ True False False  True False False False]
 '''
+# ndr_arr的行数 和 布尔数组的列数 相等
 print('ndr_arr index boolen: ','\n',ndr_arr[name_arr == 'Bob'])
 '''
 输出：
